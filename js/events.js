@@ -20,15 +20,15 @@ function frameIt() {
   })
 }
 
-// function pressIt() {
-//   $(document).on('keydown', (key) => {
-//     console.log(key.key)
-//     debugger
-//     if (key.key === 'g' || key.key === 'G' {
-//       alert('You pressed the G key.')
-//     }
-//   })
-// }
+function pressIt() {
+  $(document).on('keydown', (key) => {
+    console.log(key.key)
+    debugger
+    if (key.key === 'g' || key.key === 'G' {
+      alert('You pressed the G key.')
+    }
+  })
+}
 
 // function submitIt() {
 //   $('form').on('submit', () => {
