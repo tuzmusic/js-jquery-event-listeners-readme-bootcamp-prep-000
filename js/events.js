@@ -1,7 +1,7 @@
 //define functions here
 
 $(document).ready(function(){
-  mocha.run()
+  // mocha.run()
   getIt()
   frameIt()
   pressIt()
