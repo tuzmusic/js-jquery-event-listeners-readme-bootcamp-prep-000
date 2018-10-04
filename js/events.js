@@ -2,8 +2,9 @@
 
 $(document).ready(function(){
   mocha.run()
-//   getIt()
-//   frameIt()
+  getIt()
+  frameIt()
+  pressIt()
 //   submitIt()
 
 });
