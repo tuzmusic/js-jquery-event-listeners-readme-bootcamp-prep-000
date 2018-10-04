@@ -1,7 +1,36 @@
 //define functions here
 
 $(document).ready(function(){
-
+  getIt()
+  frameIt()
+  submitIt()
 // call functions here
 
 });
+
+function getIt() {
+  $('p').on('click', (event) => {
+    alert("Hey!")
+  })
+}
+
+function frameIt() {
+  $('img').on('load', () => {
+    $('img').addClass('tasty')
+  })
+}
+
+function pressIt() {
+  $(document).on('keydown', (key) => {
+    if (key.key === 'G') {
+      alert('You pressed the G key.')
+    }
+  })
+}
+
+function submitIt() {
+  $('form').on('submit', () => {
+      alert('Your form is going to be submitted now.')
+      // return
+  })
+}
