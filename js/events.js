@@ -1,10 +1,9 @@
 //define functions here
 
 $(document).ready(function(){
-  getIt()
-  frameIt()
-  submitIt()
-// call functions here
+//   getIt()
+//   frameIt()
+//   submitIt()
 
 });
 
