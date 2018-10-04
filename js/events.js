@@ -9,7 +9,7 @@ $(document).ready(function(){
 });
 
 function getIt() {
-  $('p').on('click', (event) => {
+  $('p').on('clear click', (event) => {
     alert("Hey!")
   })
 }
@@ -22,6 +22,7 @@ function frameIt() {
 
 function pressIt() {
   $(document).on('keydown', (key) => {
+    console.log(key.key)
     if (key.key === 'G') {
       alert('You pressed the G key.')
     }
