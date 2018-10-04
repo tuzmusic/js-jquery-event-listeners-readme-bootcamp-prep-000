@@ -22,6 +22,7 @@ function frameIt() {
 function pressIt() {
   $(document).on('keydown', (key) => {
     console.log(key.key)
+    debugger
     if (key.key === 'g') {
       alert('You pressed the G key.')
     }
